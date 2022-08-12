@@ -1,0 +1,298 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #e1efe2; 
+}
+
+#opening {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-bottom: 10px;
+}
+
+#focusDescriptions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  justify-content: space-evenly;
+  justify-content: space-around;
+}
+
+.individualFocDesc {
+  justify-content: space-evenly;
+  margin: 15px;
+  display: block;
+  text-align: center;
+}
+
+.endingImgs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 10px;
+  margin-right: 10 px;
+  margin-top: 30px;
+}
+
+#quickFacts {
+  background-color: #cbd2bc;
+  color: black;
+  margin-top: 25px;
+  margin-bottom: 33px;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 10px;
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+}
+
+#QApairs {
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  background-color: #5a7c5c;
+  margin: 0 auto;
+  margin-left: 24%;
+  margin-right: 24%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.furtherResearch {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 46px;
+  margin-bottom: 20px;
+  margin-right: 15%;
+  margin-left: 10%;
+  justify-content: space-evenly;
+  justify-content: space-around;
+}
+
+.indivSource {
+  margin: 15px;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: #464E2E;
+  font-family: "Segoe UI", sans-serif;
+}
+
+#openingtext {
+  margin: 5%;
+}
+
+#introPara {
+  font-family: "Segoe UI", sans-serif;
+}
+
+.basicHeader {
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+  font-size: 28px;
+  color: white;
+  background-color: #ACB992;
+  margin: 0 auto;
+  margin-left: 37.5%;
+  margin-right: 37.5%;
+  margin-top: 25px;
+  padding: 10px;
+}
+
+.focusDesc {
+  font-family: "Segoe UI", sans-serif;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#fact {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 20px; 
+  color: #5a7c5c;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 22%;
+  margin-right: 22%;
+
+}
+
+#about {
+  text-align: center;
+  margin: 25px;
+  margin-bottom: 15px;
+  font-size: 50px;
+}
+
+#aboutMain {
+  color: #5d7958;
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+  font-size: 25px;
+}
+
+#aboutPara {
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.mainIdea {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.question {
+  font-weight: bold;
+  margin: 5px;
+}
+
+.forFurtherResearch {
+  color: #5d7958;
+  font-family: "Segoe UI", sans-serif;
+  text-align: right;
+  font-size: 35px;
+  margin-right: 25px;
+}
+
+.headActions {
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  background-color: #5a7c5c;
+  margin: 0 auto;
+  margin-left: 23%;
+  margin-right: 23%;
+  padding: 10px;
+}
+
+#takeActionHead {
+  text-align: center;
+  margin: 20px;
+}
+
+.actions {
+  background: #8daa8f;
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+.links {
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* STYLE IMAGES */
+
+#mainPic {
+  max-width: 40%;
+  margin: 5%;
+}
+
+.focusPictures {
+  max-width: 310px;
+  border: 4px solid #464E2E;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.endingImage {
+  max-height: 205px;
+}
+
+#learnMorePic {
+  max-width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 4px solid #464E2E;
+}
+
+.sourcePics {
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+/* STYLE NAV BAR */
+nav {
+  background-color: #362706;
+}
+
+.navbar {
+  list-style-type: none;
+  color: #AFC497;
+  background-color: #46381b;
+  overflow: hidden;
+  padding: .5cm;
+}
+
+.navel {
+  display: inline;
+}
+
+li a {
+  font-family: "Segoe UI", sans-serif;
+  color: #ece9e4;
+  font-size: 1.3 cm;
+  font-weight: bold;
+  padding: 1cm;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #8c8069;
+}
+/* STYLE BUTTONS */
+
+button {
+  background: #ffffff;
+  border-radius: 10px;
+  font-size: 1em;
+  font-family: "Segoe UI", sans-serif;
+  padding-top: 0.2vw;
+  padding-bottom: 0.2vw;
+  padding-left: 0.4vw;
+  padding-right: 0.4vw;
+  margin: 5px;
+}
+
+button:hover {
+  background: #ccc2b3;
+}
+
+/* ADD MORE! */
